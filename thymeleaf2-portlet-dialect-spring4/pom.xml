@@ -2,11 +2,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>io.codense.thymeleaf-portal-dialect</groupId>
-		<artifactId>thymeleaf-portal-dialect</artifactId>
+		<groupId>io.codense.thymeleaf-portal</groupId>
+		<artifactId>thymeleaf-portal</artifactId>
 		<version>0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>thymeleaf2-portal-dialect-spring4</artifactId>
+	<artifactId>thymeleaf2-portlet-dialect-spring4</artifactId>
 
 	<properties>
 		<thymeleaf.version>${thymeleaf2.version}</thymeleaf.version>
@@ -15,8 +15,8 @@
 	
 	<dependencies>
 		<dependency>
-			<groupId>io.codense.thymeleaf-portal-dialect</groupId>
-			<artifactId>thymeleaf2-portal-dialect</artifactId>
+			<groupId>io.codense.thymeleaf-portal</groupId>
+			<artifactId>thymeleaf2-portlet-dialect</artifactId>
 		</dependency>
 		
 		<dependency>
