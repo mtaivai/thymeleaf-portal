@@ -6,7 +6,7 @@
 	                    http://www.thymeleaf.org/xsd/thymeleaf-extras-dialect-2.1.xsd"
 	prefix="portlet"
 	namespace-uri="http://codense.io/xsd/thymeleaf/portlet"
-	class="dialect.PortletDialect">
+	class="io.codense.thymeleaf.portal.dialect.PortletDialect">
 
 	<element-processor name="action-url" class="io.codense.thymeleaf.portal.dialect.ActionURLProcessor">
 	</element-processor>
