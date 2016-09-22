@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dialect xmlns="http://www.thymeleaf.org/extras/dialect"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.thymeleaf.org/extras/dialect
+	                    http://www.thymeleaf.org/xsd/thymeleaf-extras-dialect-2.1.xsd"
+	prefix="portlet"
+	namespace-uri="http://codense.io/xsd/thymeleaf/portlet"
+	class="dialect.PortletDialect">
+
+	<element-processor name="action-url" class="io.codense.thymeleaf.portal.dialect.ActionURLProcessor">
+	</element-processor>
+	
+	<element-processor name="render-url" class="io.codense.thymeleaf.portal.dialect.RenderURLProcessor">
+	</element-processor>
+	
+	<element-processor name="resource-url" class="io.codense.thymeleaf.portal.dialect.ResourceURLProcessor">
+	</element-processor>
+	
+	<element-processor name="param" class="io.codense.thymeleaf.portal.dialect.ParamProcessor">
+		
+	</element-processor>
+	
+	<attribute-processor name="action" class="io.codense.thymeleaf.portal.dialect.ActionAttrProcessor">
+		<restrictions tags="form"/>
+	</attribute-processor>
+	
+</dialect>
